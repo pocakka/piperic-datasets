@@ -9,7 +9,7 @@ just credit Piperic.
 
 | Dataset | Rows | Files | Also on |
 |---|---|---|---|
-| **[Top 1 Million Websites](top-1m/)** | 1,000,000 | full CSV in [Releases](../../releases) · [1,000-row sample](top-1m/sample-1000.csv) | [HuggingFace](https://huggingface.co/datasets/piperic/piperic-top-1m) · [Kaggle](https://www.kaggle.com/datasets/attilarczakcosi/piperic-top-1m) |
+| **[Top 1 Million Websites](top-1m/)** | 1,000,000 | [top-1m.csv.gz](top-1m/top-1m.csv.gz) (9 MB) · [1,000-row sample](top-1m/sample-1000.csv) | [HuggingFace](https://huggingface.co/datasets/piperic/piperic-top-1m) · [Kaggle](https://www.kaggle.com/datasets/attilarczakcosi/piperic-top-1m) |
 | **[AI Crawler Registry](ai-crawlers/)** | 969 | [ai-crawlers.csv](ai-crawlers/ai-crawlers.csv) | [HuggingFace](https://huggingface.co/datasets/piperic/piperic-ai-crawlers) · [Kaggle](https://www.kaggle.com/datasets/attilarczakcosi/piperic-ai-crawlers) |
 
 ---
@@ -29,9 +29,13 @@ rank,domain,linking_domains
 A link-evidence alternative to traffic-based lists. Updated monthly.
 Live version and full context: https://piperic.com/tools/top-sites
 
-> The full 26 MB CSV lives in [Releases](../../releases), not in git history —
-> so cloning this repo stays fast. [`top-1m/sample-1000.csv`](top-1m/sample-1000.csv)
-> shows the exact format.
+> The full file ships gzipped (`top-1m.csv.gz`, 9 MB → 26 MB uncompressed).
+> [`top-1m/sample-1000.csv`](top-1m/sample-1000.csv) shows the exact format
+> without unpacking anything.
+>
+> ```bash
+> gunzip -c top-1m/top-1m.csv.gz | head
+> ```
 
 ## AI Crawler Registry
 

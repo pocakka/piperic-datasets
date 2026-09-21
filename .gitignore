@@ -1,3 +1,4 @@
-# A teljes 26 MB-os CSV NEM a git-történetbe való — a GitHub Release az otthona.
-# (Egy git-be tett nagy bináris örökre benne marad és felfújja minden klónt.)
+# A NYERS 26 MB-os CSV nem megy a git-be — a tömörített (9 MB) igen:
+# így a Zenodo a release-zipballban a TELJES adatot archiválja, nem csak a sémát,
+# és nem kell GitHub-token a release-asset feltöltéséhez.
 top-1m/top-1m.csv
