@@ -6,7 +6,7 @@ authors:
   - family-names: "Rácz-Akácosi"
     given-names: "Attila"
     affiliation: "Piperic Business Intelligence"
-repository-code: "https://github.com/piperic/piperic-datasets"
+repository-code: "https://github.com/pocakka/piperic-datasets"
 url: "https://piperic.com"
 abstract: >-
   Two openly licensed datasets derived from an independent index of 50M+ live,

@@ -14,7 +14,7 @@ for r in csv.DictReader(open("ai-crawlers/ai-crawlers.csv", encoding="utf-8")):
     (allow if r["purpose"] in ("answer", "search") else block).append(r["name"])
 
 print("# Allow AI answers, block AI training — generated from the Piperic AI Crawler Registry")
-print("# https://github.com/piperic/piperic-datasets\n")
+print("# https://github.com/pocakka/piperic-datasets\n")
 for name in sorted(set(block)):
     print("User-agent: %s\nDisallow: /\n" % name)
 for name in sorted(set(allow)):
