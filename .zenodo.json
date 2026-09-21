@@ -1,0 +1,14 @@
+{
+  "title": "Piperic Open Datasets: Top 1 Million Websites & AI Crawler Registry",
+  "description": "<p>Two openly licensed datasets derived from an independent index of 50M+ live, content-validated websites.</p><p><strong>Top 1 Million Websites</strong> ranks domains by how many <em>distinct</em> domains link to them from their homepages — a link-evidence alternative to traffic-based popularity lists, resistant to link spam because each linking domain counts once.</p><p><strong>AI Crawler Registry</strong> covers 969 AI crawlers and AI-adjacent bots with operator, purpose (training vs. answer vs. agent), robots.txt compliance, user-agent patterns and verification hints, with per-row source attribution.</p><p>Live versions: <a href=\"https://piperic.com/tools/top-sites\">piperic.com/tools/top-sites</a> and <a href=\"https://piperic.com/tools/ai-bots\">piperic.com/tools/ai-bots</a>.</p>",
+  "upload_type": "dataset",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "creators": [
+    {"name": "Rácz-Akácosi, Attila", "affiliation": "Piperic Business Intelligence"}
+  ],
+  "keywords": ["web measurement", "website popularity", "link graph", "AI crawlers", "robots.txt", "web crawling", "internet measurement"],
+  "related_identifiers": [
+    {"identifier": "https://piperic.com", "relation": "isSupplementTo", "scheme": "url"}
+  ]
+}

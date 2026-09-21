@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+title: "Piperic Open Datasets: Top 1 Million Websites & AI Crawler Registry"
+message: "If you use these datasets, please cite them using the metadata from this file."
+type: dataset
+authors:
+  - family-names: "Rácz-Akácosi"
+    given-names: "Attila"
+    affiliation: "Piperic Business Intelligence"
+repository-code: "https://github.com/piperic/piperic-datasets"
+url: "https://piperic.com"
+abstract: >-
+  Two openly licensed datasets derived from an independent index of 50M+ live,
+  content-validated websites: (1) the top 1,000,000 websites ranked by the
+  number of distinct domains linking to them from their homepages, and (2) a
+  registry of 969 AI crawlers and AI-adjacent bots with operator, purpose,
+  robots.txt compliance and user-agent patterns.
+keywords:
+  - web measurement
+  - website popularity
+  - link graph
+  - AI crawlers
+  - robots.txt
+  - web crawling
+license: CC-BY-4.0
