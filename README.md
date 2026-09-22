@@ -1,8 +1,14 @@
 # Piperic Open Datasets
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22876924.svg)](https://doi.org/10.5281/zenodo.22876924)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-blue.svg)](LICENSE)
+
 Free, openly licensed datasets about the live web — published by
 [Piperic](https://piperic.com), an independent index of 50M+ live,
 content-validated websites.
+
+Every release is archived on Zenodo with a permanent DOI, so these datasets can
+be cited in papers and will stay resolvable even if this repository moves.
 
 **License: [CC BY 4.0](LICENSE)** — use them anywhere, including commercially,
 just credit Piperic.
@@ -54,11 +60,34 @@ policy generator: https://piperic.com/tools/ai-bots
 
 ## Citing
 
-If you use these datasets in research or a publication, please cite the
-release DOI (see the badge above once the first release is archived), or:
+If you use these datasets in research or a publication, please cite the DOI.
+Zenodo mints **two** kinds — pick the one that matches what you need:
 
-> Piperic Open Datasets, Piperic Business Intelligence, https://piperic.com —
-> CC BY 4.0.
+**Always the latest version** (recommended for general reference):
+
+> Piperic Open Datasets: Top 1 Million Websites & AI Crawler Registry.
+> Piperic Business Intelligence. https://doi.org/10.5281/zenodo.22876924 — CC BY 4.0.
+
+**A specific, frozen version** (use this when your results must be reproducible —
+it will always resolve to exactly the files you worked with):
+
+> Piperic Open Datasets: Top 1 Million Websites & AI Crawler Registry,
+> version v2026.09.1 (September 2026). Piperic Business Intelligence.
+> https://doi.org/10.5281/zenodo.22876925 — CC BY 4.0.
+
+BibTeX:
+
+```bibtex
+@dataset{piperic_open_datasets,
+  title     = {Piperic Open Datasets: Top 1 Million Websites \& AI Crawler Registry},
+  author    = {{Piperic Business Intelligence}},
+  year      = {2026},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.22876924},
+  url       = {https://doi.org/10.5281/zenodo.22876924},
+  license   = {CC-BY-4.0}
+}
+```
 
 ## About the data
 
