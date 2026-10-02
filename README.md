@@ -72,7 +72,7 @@ Zenodo mints **two** kinds — pick the one that matches what you need:
 it will always resolve to exactly the files you worked with):
 
 > Piperic Open Datasets: Top 1 Million Websites & AI Crawler Registry,
-> version v2026.09.1 (September 2026). Piperic Business Intelligence.
+> version v2026.09.1 (October 2026). Piperic Business Intelligence.
 > https://doi.org/10.5281/zenodo.22876925 — CC BY 4.0.
 
 BibTeX:
